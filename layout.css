@@ -30,7 +30,7 @@ footer {
 }
 
 .column_wide {
-    flex-grow: 3;
+    flex-grow: 4;
     flex-basis: 400px;
 }
 
@@ -49,3 +49,22 @@ footer {
 }
 
 /*foto slut*/
+
+/*menu siden*/
+
+.column_content {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+.menu_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_box {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+/*menu siden*/
