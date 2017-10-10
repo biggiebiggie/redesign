@@ -1,1 +1,51 @@
+/*footer*/
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_left {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+.footer_center {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+.footer_righ {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+/*footer slut*/
+
+/*forside */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column_wide {
+    flex-grow: 3;
+    flex-basis: 400px;
+}
+
+.column_narrow {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+/*forside slut*/
+
+/*foto*/
+
+.img_box {
+    flex-grow: 1;
+    flex-basis: 400px
+}
+
+/*foto slut*/
