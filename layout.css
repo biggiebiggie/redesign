@@ -102,6 +102,10 @@ img {
     align-self: flex-end;
 }
 
+#menu body {
+    background-image: url("billeder/menu/baggrundsbillede.jpg");
+}
+
 
 /*menu siden*/
 
