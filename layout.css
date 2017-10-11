@@ -58,15 +58,11 @@ footer {
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
-<<<<<<< HEAD
 
 }
 
 img {
     width: 100%;
-=======
-    width: 150px;
->>>>>>> origin/master
 }
 
 
@@ -99,5 +95,8 @@ img {
 
 /*musik side*/
 
+#musik h3 {
+	text-align: center;
+}
 
 /*musik side*/
