@@ -8,6 +8,10 @@
 body {
 	margin: 10vw;
 	margin-top: 0;
+	background-image: url(billeder/menu/baggrundsbillede.jpg);
+	background-repeat: no-repeat repeat;
+	background-size: 100%;
+	background-color: pink;
 }
 
 .content {
@@ -20,10 +24,10 @@ body {
 
 h1 {
     font-family: 'Bungee Shade', cursive;
-    font-size: 45px;
+    font-size: 2em;
     text-align: center;
     color: rebeccapurple;
-    margin: 20px;
+    margin: 1vw;
 }
 
 h2 {
@@ -94,10 +98,6 @@ img {
 
 /*menu siden*/
 
-#menu body {
-	background-image: url(billeder/menu/baggrundsbillede);
-	background-repeat: no-repeat;
-}
 
 #menu p {
 	margin-bottom: 15px;
@@ -122,11 +122,6 @@ img {
     align-self: flex-end;
 	text-align: center;
 }
-
-#menu body {
-    background-image: url("billeder/menu/baggrundsbillede.jpg");
-}
-
 
 /*menu siden*/
 
