@@ -6,19 +6,91 @@
 }
 
 body {
-	margin: 10vw;
-	margin-top: 0;
-	background-image: url(billeder/menu/baggrundsbillede.jpg);
-	background-repeat: no-repeat repeat;
-	background-size: 100%;
-	background-color: pink;
+    margin: 10vw;
+    margin-top: 0;
+    background-image: url(billeder/menu/baggrundsbillede.jpg);
+    background-repeat: no-repeat repeat;
+    background-size: 100%;
+    background-color: pink;
 }
+
+
+/*menu*/
+
+.dropdown-content {
+    position: fixed;
+    text-align: center;
+    align-self: center;
+    background-color: aqua;
+}
+
+.dropbtn {
+    z-index: -3;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 4px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #1a1aff;
+
+}
+
+@media screen and (max-width: 676px) {
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        z-index: 1
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+}
+
+/*menu slut*/
 
 .content {
     display: flex;
     flex-wrap: wrap;
-	margin-left: 10vw;
-	margin-right: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 
@@ -31,7 +103,7 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -47,8 +119,8 @@ img {
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
-	align-self: flex-end;
-	margin: 1vw;
+    align-self: flex-end;
+    margin: 1vw;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -76,55 +148,51 @@ img {
 
 /*forside slut*/
 
-
 /*foto*/
 
 .musik_foto {
-	flex-basis: 1;
-	flex-basis: 400px;
-	margin: 1em;
-	align-self: flex-end;
+    flex-basis: 1;
+    flex-basis: 400px;
+    margin: 1em;
+    align-self: flex-end;
 }
 
 .foto_container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 /*foto slut*/
 
-
 /*menu siden*/
 
-
 #menu p {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .menu_container {
     display: flex;
     flex-wrap: wrap;
-	margin: 1vw;
+    margin: 1vw;
 }
 
 .menu_box {
     flex-grow: 1;
     flex-basis: 300px;
-	text-align: center;
-	margin: 1vw;
+    text-align: center;
+    margin: 1vw;
 }
 
 .menu_box_bottom {
     flex-grow: 3;
     flex-basis: 400px;
     align-self: flex-end;
-	text-align: center;
+    text-align: center;
 }
 
 /*menu siden*/
-
 
 /*musik side*/
 
@@ -133,8 +201,8 @@ img {
 }
 
 .content_musik {
-	margin-left: 10vw;
-	margin-right: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .musik_foto {
@@ -145,8 +213,7 @@ img {
     transition: all 0.3s;
 }
 
-.musik_foto:hover img
-{
+.musik_foto:hover img {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
@@ -161,36 +228,36 @@ img {
 footer {
     display: flex;
     flex-wrap: wrap;
-	margin: 2vw 10vw 0vw 10vw;
-	justify-content: center;
+    margin: 2vw 10vw 0vw 10vw;
+    justify-content: center;
 }
 
 .footer_left {
     flex-grow: 1;
     flex-basis: 200px;
-	text-align: center;
-	margin-bottom: 1.5vw;
+    text-align: center;
+    margin-bottom: 1.5vw;
 }
 
 .footer_center {
     flex-grow: 1;
     flex-basis: 200px;
-	text-align: center;
-	margin-bottom: 1.5vw;
+    text-align: center;
+    margin-bottom: 1.5vw;
 }
 
 .footer_right {
     flex-grow: 1;
     flex-basis: 200px;
-	text-align: center;
+    text-align: center;
 }
 
 
 /*footer slut*/
 
 @media screen and (min-width: 688px) and (orientation: landscape) {
-	.foto_container {
-		flex-wrap: nowrap;
-		display: flex;
-	}
+    .foto_container {
+        flex-wrap: nowrap;
+        display: flex;
+    }
 }
