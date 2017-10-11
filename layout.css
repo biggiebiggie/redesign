@@ -8,9 +8,6 @@
 body {
     margin: 10vw;
     margin-top: 0;
-    background-image: url(billeder/menu/baggrundsbillede.jpg);
-    background-repeat: no-repeat repeat;
-    background-size: 100%;
 }
 
 
@@ -91,6 +88,7 @@ a:hover {
 	flex-wrap: wrap;
 	margin-left: 10vw;
 	margin-right: 10vw;
+	justify-content: center;
 }
 
 
@@ -136,6 +134,12 @@ img {
 
 /*forside */
 
+#forside body {
+	background-image: url(billeder/forside/forsidebillede.jpg);
+    background-repeat: no-repeat repeat;
+    background-size: 100%;
+}
+
 .column_wide {
 	flex-grow: 4;
 	flex-basis: 400px;
@@ -171,15 +175,12 @@ img {
 
 /*menu siden*/
 
-<<<<<<< HEAD
 #menu body {
 	background-image: url(billeder/menu/baggrundsbilldefilter.jpg);
 	background-repeat: no-repeat repeat;
 	background-size: 100%;
 }
 
-=======
->>>>>>> origin/master
 #menu p {
     margin-bottom: 15px;
 }
@@ -223,8 +224,6 @@ img {
 
 /*menu siden*/
 
-=======
->>>>>>> origin/master
 /*musik side*/
 
 #musik h3 {
