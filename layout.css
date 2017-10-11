@@ -5,6 +5,14 @@ h1 {
     color: rebeccapurple;
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
 
 /*footer*/
 
@@ -93,3 +101,5 @@ footer {
 
 
 /*musik side*/
+
+.content_musik {}
