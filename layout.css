@@ -1,3 +1,11 @@
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 45px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+
 /*footer*/
 
 footer {
@@ -20,7 +28,9 @@ footer {
     flex-basis: 400px;
 }
 
+
 /*footer slut*/
+
 
 /*forside */
 
@@ -39,18 +49,29 @@ footer {
     flex-basis: 400px;
 }
 
+
 /*forside slut*/
+
 
 /*foto*/
 
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
+<<<<<<< HEAD
 
-    width: 150px;
 }
 
+img {
+    width: 100%;
+=======
+    width: 150px;
+>>>>>>> origin/master
+}
+
+
 /*foto slut*/
+
 
 /*menu siden*/
 
@@ -72,8 +93,11 @@ footer {
     align-self: flex-end;
 }
 
+
 /*menu siden*/
 
+
 /*musik side*/
+
 
 /*musik side*/
