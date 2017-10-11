@@ -47,7 +47,10 @@ footer {
     flex-grow: 1;
     flex-basis: 400px;
 
-    width: 150px;
+}
+
+img {
+    width: 100%;
 }
 
 /*foto slut*/
