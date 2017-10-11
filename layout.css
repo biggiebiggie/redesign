@@ -8,10 +8,11 @@
 body {
 	margin: 10vw;
 	margin-top: 0;
+	background-color: rgba(255,182,193, 0.8);
 	background-image: url(billeder/menu/baggrundsbillede.jpg);
 	background-repeat: no-repeat repeat;
 	background-size: 100%;
-	background-color: pink;
+
 }
 
 .content {
@@ -66,6 +67,8 @@ img {
 .column_wide {
     flex-grow: 4;
     flex-basis: 400px;
+	background-color: (255, 254, 233);
+	padding: 1vw;
 }
 
 .column_narrow {
@@ -163,6 +166,8 @@ footer {
     flex-wrap: wrap;
 	margin: 2vw 10vw 0vw 10vw;
 	justify-content: center;
+	background-color: rgb(255, 254, 233);
+	padding: 1vw;
 }
 
 .footer_left {
