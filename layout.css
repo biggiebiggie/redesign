@@ -31,7 +31,6 @@ footer {
 
 /*footer slut*/
 
-
 /*forside */
 
 .content {
@@ -52,26 +51,22 @@ footer {
 
 /*forside slut*/
 
-
 /*foto*/
 
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
-<<<<<<< HEAD
-
+    <<<<<<< HEAD
 }
 
 img {
     width: 100%;
-=======
-    width: 150px;
->>>>>>> origin/master
+    =======width: 150px;
+    > > > > > > > origin/master
 }
 
 
 /*foto slut*/
-
 
 /*menu siden*/
 
@@ -96,8 +91,6 @@ img {
 
 /*menu siden*/
 
-
 /*musik side*/
-
 
 /*musik side*/
