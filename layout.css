@@ -5,6 +5,14 @@ h1 {
     color: rebeccapurple;
 }
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
 
 /*footer*/
 
@@ -31,7 +39,6 @@ footer {
 
 /*footer slut*/
 
-
 /*forside */
 
 .content {
@@ -52,22 +59,29 @@ footer {
 
 /*forside slut*/
 
-
 /*foto*/
 
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
+<<<<<<< HEAD
 
+=======
+    <<<<<<< HEAD
+>>>>>>> origin/master
 }
 
 img {
     width: 100%;
+<<<<<<< HEAD
+=======
+    =======width: 150px;
+    > > > > > > > origin/master
+>>>>>>> origin/master
 }
 
 
 /*foto slut*/
-
 
 /*menu siden*/
 
@@ -92,11 +106,15 @@ img {
 
 /*menu siden*/
 
-
 /*musik side*/
 
+<<<<<<< HEAD
 #musik h3 {
 	text-align: center;
 }
 
+=======
+>>>>>>> origin/master
 /*musik side*/
+
+.content_musik {}
