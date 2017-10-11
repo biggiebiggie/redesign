@@ -1,8 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     font-family: 'Bungee Shade', cursive;
     font-size: 45px;
     text-align: center;
     color: rebeccapurple;
+    margin: 20px;
 }
 
 h2 {
@@ -39,6 +45,7 @@ footer {
 
 /*footer slut*/
 
+
 /*forside */
 
 .content {
@@ -59,38 +66,21 @@ footer {
 
 /*forside slut*/
 
+
 /*foto*/
 
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    <<<<<<< HEAD
->>>>>>> origin/master
-=======
-    <<<<<<< HEAD
->>>>>>> origin/master
 }
 
 img {
     width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    =======width: 150px;
-    > > > > > > > origin/master
->>>>>>> origin/master
-=======
-    =======width: 150px;
-    > > > > > > > origin/master
->>>>>>> origin/master
 }
 
 
 /*foto slut*/
+
 
 /*menu siden*/
 
@@ -115,18 +105,14 @@ img {
 
 /*menu siden*/
 
+
 /*musik side*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 #musik h3 {
-	text-align: center;
+    text-align: center;
 }
 
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+
 /*musik side*/
 
 .content_musik {}
