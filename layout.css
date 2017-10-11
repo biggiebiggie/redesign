@@ -46,6 +46,8 @@ footer {
 .img_box {
     flex-grow: 1;
     flex-basis: 400px;
+    height: 150px;
+    width: 150px;
 }
 
 /*foto slut*/
