@@ -30,7 +30,7 @@ body {
 
 .dropdown-content a {
     text-decoration: none;
-	color: white;
+    color: white;
     padding-left: 1vw;
     padding-right: 1vw;
     display: inline-block;
@@ -93,11 +93,8 @@ a:hover {
 
 h1 {
     font-family: 'Bungee Shade', cursive;
-<<<<<<< HEAD
     font-size: 3vw;
-=======
     font-size: 2.5em;
->>>>>>> origin/master
     text-align: center;
     color: rgb(102, 51, 153);
     background-color: rgba(255, 255, 255, 0.5);
@@ -157,28 +154,12 @@ img {
 }
 
 #forside .column_wide {
-<<<<<<< HEAD
-	flex-grow: 4;
-	flex-basis: 400px;
-	padding: 1vw;
-	margin: 1vw;
-	width: 100%;
-	text-align: center;
-	justify-content: center;
-	background-color: rgba(255, 255, 255, 0.7);
-=======
     flex-grow: 4;
     flex-basis: 400px;
     padding: 1vw;
     margin: 1vw;
     width: 100%;
     text-align: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.7);
-    flex-grow: 4;
-    flex-basis: 400px;
-    padding: 1vw;
-    margin: 1vw;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -189,7 +170,6 @@ img {
 
 .column_wide .bottom {
     margin: 0 auto;
->>>>>>> origin/master
 }
 
 .column_narrow {
@@ -199,11 +179,13 @@ img {
     margin: 1vw;
     background-color: rgba(255, 255, 255, 0.7);
 }
-.hs-responsive-embed-youtube iframe, video{
+
+.hs-responsive-embed-youtube iframe,
+video {
     position: absolute;
     width: 100%!important;
     height: 100%!important;
-	left:0px;
+    left: 0px;
 }
 
 .hs-responsive-embed-youtube {
@@ -212,6 +194,7 @@ img {
     /* 16:9 Aspect Ratio */
     padding-top: 10px;
 }
+
 
 /*forside slut*/
 
