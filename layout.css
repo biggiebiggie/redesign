@@ -14,12 +14,12 @@ body {
 /*menu*/
 
 .dropdown-content {
-	font-size: 1.8vw;
+    font-size: 1.8vw;
     text-align: center;
     background-color: rgba(102, 51, 153, 0.8);
     padding: 0.8vw;
     border-radius: 50px;
-	margin: 1vw 11vw 1vw 11vw;
+    margin: 1vw 11vw 1vw 11vw;
 }
 
 .dropbtn {
@@ -30,7 +30,7 @@ body {
 
 .dropdown-content a {
     text-decoration: none;
-	color: white;
+    color: white;
     padding-left: 1vw;
     padding-right: 1vw;
     display: inline-block;
@@ -39,45 +39,6 @@ body {
 
 a:hover {
     color: #ff9900;
-}
-
-@media screen and (max-width: 676px) {
-    .dropbtn {
-        background-image: url(billeder/menu%2520icon/menu.png);
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-        z-index: 1;
-    }
-    .dropdown {
-        position: fixed;
-        display: inline-block;
-    }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    .dropdown-content a:hover {
-        background-color: #f1f1f1
-    }
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
-    }
 }
 
 
@@ -97,11 +58,11 @@ h1 {
     text-align: center;
     color: rgb(102, 51, 153);
     background-color: rgba(255, 255, 255, 0.7);
-	margin: 0 11vw 0 11vw;
+    margin: 0 11vw 0 11vw;
 }
 
 h2 {
-	font-size: 1.8em;
+    font-size: 1.8em;
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Lora', serif;
@@ -118,7 +79,7 @@ h4 {
 }
 
 p {
-	font-size: 1em;
+    font-size: 1em;
     font-family: 'Lora', serif;
 }
 
@@ -155,14 +116,14 @@ img {
 }
 
 #forside .column_wide {
-	flex-grow: 4;
-	flex-basis: 400px;
-	padding: 1vw;
-	margin: 1vw;
-	width: 100%;
-	text-align: center;
-	justify-content: center;
-	background-color: rgba(255, 255, 255, 0.7);
+    flex-grow: 4;
+    flex-basis: 400px;
+    padding: 1vw;
+    margin: 1vw;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .column_narrow {
@@ -172,11 +133,13 @@ img {
     margin: 1vw;
     background-color: rgba(255, 255, 255, 0.7);
 }
-.hs-responsive-embed-youtube iframe, video{
+
+.hs-responsive-embed-youtube iframe,
+video {
     position: absolute;
     width: 100%!important;
     height: 100%!important;
-	left:0px;
+    left: 0px;
 }
 
 .hs-responsive-embed-youtube {
@@ -185,6 +148,7 @@ img {
     /* 16:9 Aspect Ratio */
     padding-top: 10px;
 }
+
 
 /*forside slut*/
 
@@ -210,7 +174,7 @@ img {
 }
 
 #menu p {
-	font-size: 20px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -273,20 +237,23 @@ img {
 #musik .foto_container p {
     text-align: center;
 }
-#musik, #foto {
-	background-color: rgba(128,0,128,0.2);
+
+#musik,
+#foto {
+    background-color: rgba(128, 0, 128, 0.2);
 }
+
 .musik_foto {
-	flex-grow: 1;
+    flex-grow: 1;
     flex-basis: 400px;
     margin: 1em;
     align-self: flex-end;
 }
 
 .content_musik {
-	margin: 1vw 11vw 1vw 11vw;
-	padding: 2vw;
-	background-color: rgba(255, 255, 255, 0.5);
+    margin: 1vw 11vw 1vw 11vw;
+    padding: 2vw;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .musik_foto {
