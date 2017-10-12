@@ -14,12 +14,12 @@ body {
 /*menu*/
 
 .dropdown-content {
+	font-size: 1.8vw;
     text-align: center;
     background-color: rgba(102, 51, 153, 0.8);
     padding: 0.8vw;
     border-radius: 50px;
-    margin-right: 10vw;
-    margin-left: 10vw;
+	margin: 1vw 11vw 1vw 11vw;
 }
 
 .dropbtn {
@@ -96,11 +96,12 @@ h1 {
     font-size: 3vw;
     text-align: center;
     color: rgb(102, 51, 153);
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 1vw;
+    background-color: rgba(255, 255, 255, 0.7);
+	margin: 0 11vw 0 11vw;
 }
 
 h2 {
+	font-size: 1.8em;
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Lora', serif;
@@ -117,6 +118,7 @@ h4 {
 }
 
 p {
+	font-size: 1em;
     font-family: 'Lora', serif;
 }
 
@@ -208,6 +210,7 @@ img {
 }
 
 #menu p {
+	font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -270,7 +273,7 @@ img {
 #musik .foto_container p {
     text-align: center;
 }
-#musik {
+#musik, #foto {
 	background-color: rgba(128,0,128,0.2);
 }
 .musik_foto {
@@ -281,9 +284,8 @@ img {
 }
 
 .content_musik {
-    margin-left: 10vw;
-    margin-right: 10vw;
-		padding: 2vw;
+	margin: 1vw 11vw 1vw 11vw;
+	padding: 2vw;
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
