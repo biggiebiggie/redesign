@@ -13,7 +13,7 @@ body {
 
 /*menu*/
 
-.dropdown-content {
+.menubar_content {
 	font-size: 1.8vw;
     text-align: center;
     background-color: rgba(102, 51, 153, 0.8);
@@ -22,13 +22,13 @@ body {
 	margin: 1vw 11vw 1vw 11vw;
 }
 
-.dropbtn {
+/*.dropbtn {
     position: absolute;
     top: 80px;
     right: 0;
-}
+}*/
 
-.dropdown-content a {
+.menubar_content a {
     text-decoration: none;
 	color: white;
     padding-left: 1vw;
