@@ -24,8 +24,10 @@ body {
 }
 
 .dropbtn {
+
     position: absolute;
-    z-index: -3;
+    top: 80px;
+    right: 0;
 }
 
 .dropdown-content a {
