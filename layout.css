@@ -20,7 +20,6 @@ body {
     border-radius: 50px;
     margin-right: 10vw;
     margin-left: 10vw;
-
 }
 
 .dropbtn {
@@ -37,7 +36,6 @@ body {
 
 a:hover {
     color: #1a1aff;
-
 }
 
 @media screen and (max-width: 676px) {
@@ -50,12 +48,10 @@ a:hover {
         cursor: pointer;
         z-index: 1;
     }
-
     .dropdown {
         position: fixed;
         display: inline-block;
     }
-
     .dropdown-content {
         display: none;
         position: absolute;
@@ -64,26 +60,23 @@ a:hover {
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
-
     .dropdown-content a {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
     }
-
     .dropdown-content a:hover {
         background-color: #f1f1f1
     }
-
     .dropdown:hover .dropdown-content {
         display: block;
     }
-
     .dropdown:hover .dropbtn {
         background-color: #3e8e41;
     }
 }
+
 
 /*menu slut*/
 
@@ -94,7 +87,6 @@ a:hover {
     margin-right: 10vw;
     justify-content: center;
 }
-
 
 h1 {
     font-family: 'Bungee Shade', cursive;
@@ -112,6 +104,10 @@ h2 {
 
 h3 {
     text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
 }
 
 img {
@@ -136,6 +132,7 @@ img {
     z-index: 1;
 }
 
+
 /*forside */
 
 #forside body {
@@ -146,6 +143,7 @@ img {
 }
 
 #forside .column_wide {
+<<<<<<< HEAD
 	flex-grow: 4;
 	flex-basis: 400px;
 	padding: 1vw;
@@ -154,8 +152,23 @@ img {
 	text-align: center;
 	justify-content: center;
 	background-color: rgba(255, 255, 255, 0.7);
+=======
+    flex-grow: 4;
+    flex-basis: 400px;
+    padding: 1vw;
+    margin: 1vw;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
+#forside .column_wide {
+    width: 100%;
+}
+
+.column_wide .bottom {
+    margin: 0 auto;
+>>>>>>> origin/master
+}
 
 .column_narrow {
     flex-grow: 1;
@@ -167,6 +180,7 @@ img {
 
 
 /*forside slut*/
+
 
 /*foto*/
 
@@ -186,13 +200,13 @@ img {
 
 /*foto slut*/
 
+
 /*menu siden*/
 
 #menu body {
     background-image: url(billeder/menu/baggrundsbilldefilter.jpg);
     background-repeat: no-repeat repeat;
     background-size: 100%;
-
 }
 
 #menu p {
@@ -237,7 +251,9 @@ img {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+
 /*menu siden*/
+
 
 /*musik side*/
 
@@ -265,7 +281,9 @@ img {
     z-index: 1;
 }
 
+
 /*musik side*/
+
 
 /*footer*/
 
