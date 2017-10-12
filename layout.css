@@ -23,7 +23,6 @@ body {
 }
 
 .dropbtn {
-
     position: absolute;
     top: 80px;
     right: 0;
@@ -35,6 +34,7 @@ body {
     padding-left: 1vw;
     padding-right: 1vw;
     display: inline-block;
+    font-family: 'Lora', bold 700, serif;
 }
 
 a:hover {
@@ -93,7 +93,11 @@ a:hover {
 
 h1 {
     font-family: 'Bungee Shade', cursive;
+<<<<<<< HEAD
     font-size: 3vw;
+=======
+    font-size: 2.5em;
+>>>>>>> origin/master
     text-align: center;
     color: rgb(102, 51, 153);
     background-color: rgba(255, 255, 255, 0.5);
@@ -103,14 +107,21 @@ h1 {
 h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Lora', serif;
 }
 
 h3 {
     text-align: center;
+    font-family: 'Lora', serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lora', serif;
 }
 
 p {
-    font-family: "Times New Roman";
+    font-family: 'Lora', serif;
 }
 
 img {
@@ -146,6 +157,7 @@ img {
 }
 
 #forside .column_wide {
+<<<<<<< HEAD
 	flex-grow: 4;
 	flex-basis: 400px;
 	padding: 1vw;
@@ -154,6 +166,30 @@ img {
 	text-align: center;
 	justify-content: center;
 	background-color: rgba(255, 255, 255, 0.7);
+=======
+    flex-grow: 4;
+    flex-basis: 400px;
+    padding: 1vw;
+    margin: 1vw;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    flex-grow: 4;
+    flex-basis: 400px;
+    padding: 1vw;
+    margin: 1vw;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#forside .column_wide {
+    width: 100%;
+}
+
+.column_wide .bottom {
+    margin: 0 auto;
+>>>>>>> origin/master
 }
 
 .column_narrow {
@@ -255,7 +291,15 @@ img {
 
 /*musik side*/
 
-#musik h3 {
+#musik .content_musik h4 {
+    text-align: center;
+}
+
+#musik .content_musik h2 {
+    margin-bottom: 0px;
+}
+
+#musik .content_musik i {
     text-align: center;
 }
 
