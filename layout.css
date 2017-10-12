@@ -141,7 +141,7 @@ img {
 	/*background-attachment: fixed;   gør at billedet ikke rykker sig når man scroller*/
 }
 
-.column_wide {
+#forside .column_wide {
 	flex-grow: 4;
 	flex-basis: 400px;
 	padding: 1vw;
