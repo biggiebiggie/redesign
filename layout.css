@@ -15,7 +15,7 @@ body {
 
 .dropdown-content {
     text-align: center;
-    background-color: palevioletred;
+    background-color: rgba(102, 51, 153, 0.8);
     padding: 0.8vw;
     border-radius: 50px;
     margin-right: 10vw;
@@ -30,6 +30,7 @@ body {
 
 .dropdown-content a {
     text-decoration: none;
+	color: white;
     padding-left: 1vw;
     padding-right: 1vw;
     display: inline-block;
@@ -37,12 +38,12 @@ body {
 }
 
 a:hover {
-    color: #1a1aff;
+    color: #ff9900;
 }
 
 @media screen and (max-width: 676px) {
     .dropbtn {
-        background-color: #4CAF50;
+        background-image: url(billeder/menu%2520icon/menu.png);
         color: white;
         padding: 16px;
         font-size: 16px;
@@ -92,9 +93,13 @@ a:hover {
 
 h1 {
     font-family: 'Bungee Shade', cursive;
+<<<<<<< HEAD
+    font-size: 3vw;
+=======
     font-size: 2.5em;
+>>>>>>> origin/master
     text-align: center;
-    color: rebeccapurple;
+    color: rgb(102, 51, 153);
     background-color: rgba(255, 255, 255, 0.5);
     margin: 1vw;
 }
@@ -152,6 +157,16 @@ img {
 }
 
 #forside .column_wide {
+<<<<<<< HEAD
+	flex-grow: 4;
+	flex-basis: 400px;
+	padding: 1vw;
+	margin: 1vw;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.7);
+=======
     flex-grow: 4;
     flex-basis: 400px;
     padding: 1vw;
@@ -174,6 +189,7 @@ img {
 
 .column_wide .bottom {
     margin: 0 auto;
+>>>>>>> origin/master
 }
 
 .column_narrow {
@@ -183,7 +199,19 @@ img {
     margin: 1vw;
     background-color: rgba(255, 255, 255, 0.7);
 }
+.hs-responsive-embed-youtube iframe, video{
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+	left:0px;
+}
 
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 10px;
+}
 
 /*forside slut*/
 
