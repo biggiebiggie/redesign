@@ -23,7 +23,6 @@ body {
 }
 
 .dropbtn {
-
     position: absolute;
     top: 80px;
     right: 0;
@@ -153,16 +152,14 @@ img {
 }
 
 #forside .column_wide {
-<<<<<<< HEAD
-	flex-grow: 4;
-	flex-basis: 400px;
-	padding: 1vw;
-	margin: 1vw;
-	width: 100%;
-	text-align: center;
-	justify-content: center;
-	background-color: rgba(255, 255, 255, 0.7);
-=======
+    flex-grow: 4;
+    flex-basis: 400px;
+    padding: 1vw;
+    margin: 1vw;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
     flex-grow: 4;
     flex-basis: 400px;
     padding: 1vw;
@@ -177,7 +174,6 @@ img {
 
 .column_wide .bottom {
     margin: 0 auto;
->>>>>>> origin/master
 }
 
 .column_narrow {
