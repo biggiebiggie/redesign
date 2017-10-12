@@ -35,6 +35,7 @@ body {
     padding-right: 1vw;
     display: inline-block;
     font-family: 'Lora', bold 700, serif;
+    text-transform: uppercase;
 }
 
 a:hover {
@@ -282,7 +283,11 @@ video {
     margin-bottom: 0px;
 }
 
-#musik .content_musik i {
+#musik i {
+    text-align: center;
+}
+
+#musik .foto_container p {
     text-align: center;
 }
 
