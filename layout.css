@@ -263,7 +263,11 @@ img {
     margin-bottom: 0px;
 }
 
-#musik .content_musik i {
+#musik i {
+    text-align: center;
+}
+
+#musik .foto_container p {
     text-align: center;
 }
 #musik {
