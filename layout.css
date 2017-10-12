@@ -14,10 +14,12 @@ body {
 /*menu*/
 
 .dropdown-content {
-    position: fixed;
     text-align: center;
-    align-self: center;
-    background-color: aqua;
+    background-color: palevioletred;
+    padding: 0.8vw;
+    border-radius: 50px;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 .dropbtn {
@@ -25,9 +27,10 @@ body {
     z-index: -3;
 }
 
-a {
+.dropdown-content a {
     text-decoration: none;
-    padding-left: 4px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     display: inline-block;
 }
 
@@ -139,7 +142,7 @@ img {
     /*background-attachment: fixed;   gør at billedet ikke rykker sig når man scroller*/
 }
 
-.column_wide {
+#forside .column_wide {
     flex-grow: 4;
     flex-basis: 400px;
     padding: 1vw;
