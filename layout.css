@@ -22,12 +22,6 @@ body {
     margin: 1vw 11vw 1vw 11vw;
 }
 
-/*.dropbtn {
-    position: absolute;
-    top: 80px;
-    right: 0;
-}*/
-
 .menubar_content a {
     text-decoration: none;
     color: white;
@@ -42,10 +36,10 @@ a:hover {
 }
 
 @media screen and (max-width: 413px) {
-        header a {
-			font-size: 4vw;
-        }
+    header a {
+        font-size: 4vw;
     }
+}
 
 
 /*menu slut*/
@@ -72,21 +66,29 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Helvetica Neue', sans-serif;
+    color: #3F1D54;
 }
 
 h3 {
     text-align: center;
     font-family: 'Helvetica Neue', sans-serif;
+    color: #AE1F80;
 }
 
 h4 {
     text-align: center;
     font-family: 'Helvetica Neue', sans-serif;
+    color: #EE5898;
+}
+
+h5 {
+    color: #2BBACE;
 }
 
 p {
     font-size: 1em;
     font-family: 'Helvetica Neue', sans-serif;
+    color: #3F1D54;
 }
 
 img {
@@ -138,6 +140,7 @@ img {
     padding: 1vw;
     margin: 1vw;
     background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
 }
 
 .hs-responsive-embed-youtube iframe,
@@ -153,6 +156,10 @@ video {
     padding-bottom: 56.25%;
     /* 16:9 Aspect Ratio */
     padding-top: 10px;
+}
+
+#forside column_narrow img {
+    max-width: 200px;
 }
 
 
@@ -219,21 +226,19 @@ video {
 }
 
 
-
-
 /*menu siden*/
 
 
 /*musik side*/
 
-#musik .content_musik h4 {
+#musik .content_musik h5 {
     text-align: center;
-	font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 #musik .content_musik h2 {
     margin-bottom: 0px;
-	font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 #musik i {
@@ -288,8 +293,12 @@ footer {
     flex-wrap: wrap;
     margin: 2vw 11vw 0vw 11vw;
     justify-content: center;
-	background-color: rgba(102, 51, 153, 0.8);
+    background-color: rgba(102, 51, 153, 0.8);
     padding: 1vw;
+}
+
+footer p {
+    color: white;
 }
 
 .footer_left {
@@ -297,7 +306,11 @@ footer {
     flex-basis: 200px;
     text-align: center;
     margin-bottom: 1.5vw;
-	color: white;
+    color: white;
+}
+
+.footer_left h4 {
+    color: white;
 }
 
 .footer_center {
@@ -305,14 +318,22 @@ footer {
     flex-basis: 200px;
     text-align: center;
     margin-bottom: 1.5vw;
-	color: white;
+    color: white;
+}
+
+.footer_center h4 {
+    color: white;
 }
 
 .footer_right {
     flex-grow: 1;
     flex-basis: 200px;
     text-align: center;
-	color: white;
+    color: white;
+}
+
+.footer_right h4 {
+    color: white;
 }
 
 
